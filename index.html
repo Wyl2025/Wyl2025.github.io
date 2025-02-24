@@ -6,16 +6,42 @@
     <title>Herr Wayla - Dolmetscher für Somali & Deutsch</title>
     <meta name="google-site-verification" content="e0450a1e5b9461e6">
     <link rel="stylesheet" href="styles.css">
+    <style>
+        /* Flexbox for layout */
+        .container {
+            display: flex;
+            align-items: center; /* Centers vertically */
+            justify-content: space-between; /* Ensures text and image are well placed */
+        }
+        
+        .text {
+            flex: 1; /* Allows text to take available space */
+        }
+
+        .image-container {
+            flex-shrink: 0; /* Prevents the image from shrinking */
+        }
+
+        .image-container img {
+            max-width: 200px; /* Adjust size as needed */
+            height: auto;
+            display: block;
+        }
+    </style>
 </head>
 <body>
 
-    <header style="text-align: center;">
-        <img src="img.png" alt="Herr Wayla - Dolmetscher" style="max-width: 100%; height: auto; width: auto; display: block; margin: 0 auto;">
-        <h1>Willkommen auf meiner Website</h1>
-        <p>Ich bin <strong>Herr Wayla</strong>, Dolmetscher für Somali und Deutsch seit 2015.</p>
-        <p>Professionelle und zuverlässige Dolmetscherdienste.</p>
-        <p>Standort: Nähe München</p>
-    </header>
+    <div class="container">
+        <div class="text">
+            <h1>Willkommen auf meiner Website</h1>
+            <p>Ich bin <strong>Herr Wayla</strong>, Dolmetscher für Somali und Deutsch seit 2015.</p>
+            <p>Professionelle und zuverlässige Dolmetscherdienste.</p>
+            <p>Standort: Nähe München</p>
+        </div>
+        <div class="image-container">
+            <img src="img.png" alt="Herr Wayla - Dolmetscher">
+        </div>
+    </div>
 
     <main>
         <section>
