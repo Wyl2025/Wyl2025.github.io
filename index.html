@@ -11,21 +11,26 @@
         .container {
             display: flex;
             align-items: center; /* Centers vertically */
-            justify-content: space-between; /* Ensures text and image are well placed */
+            justify-content: flex-start; /* Ensures text is on the left */
+            gap: 20px; /* Adds space between text and image */
         }
-        
+
         .text {
             flex: 1; /* Allows text to take available space */
         }
 
         .image-container {
-            flex-shrink: 0; /* Prevents the image from shrinking */
+            flex-shrink: 0; /* Prevents image from shrinking */
+            position: relative;
+            display: flex;
+            justify-content: center;
         }
 
         .image-container img {
-            max-width: 200px; /* Adjust size as needed */
+            max-width: 150px; /* Adjust size as needed */
             height: auto;
             display: block;
+            margin-left: 10px; /* Adds slight space between image and text */
         }
     </style>
 </head>
