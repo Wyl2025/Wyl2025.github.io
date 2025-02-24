@@ -1,8 +1,9 @@
-<!DOCTYPE html> 
+<!DOCTYPE html>
 <html lang="de">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Professionelle Dolmetscherdienste für Somali und Deutsch seit 2015 - Behördendolmetschen, Übersetzungen und mehr">
     <title>Wayla - Dolmetscher für Somali & Deutsch</title>
     <style>
         body {
@@ -38,13 +39,13 @@
         }
 
         a {
-            color: #d89cbf;
-            text-decoration: none;
+            color: #6c4e7a;
+            text-decoration: underline;
             font-weight: bold;
         }
 
         a:hover {
-            text-decoration: underline;
+            color: #d89cbf;
         }
 
         section {
@@ -81,47 +82,61 @@
         footer p {
             margin: 0;
         }
+
+        @media (max-width: 768px) {
+            section {
+                margin: 15px;
+                padding: 20px;
+            }
+            h1 {
+                font-size: 28px;
+            }
+            h2 {
+                font-size: 24px;
+            }
+            h3 {
+                font-size: 20px;
+            }
+        }
     </style>
 </head>
 <body>
-    <h1>Willkommen auf meiner Website</h1>
-    <p>Ich bin Dolmetscher für Somali und Deutsch seit 2015.</p>
+    <h1>Willkommen bei Wayla</h1>
+    <p>Professionelle Dolmetscherdienste für Somali und Deutsch seit 2015</p>
 
     <section>
         <h2>Berufserfahrung</h2>
-
         <h3>Dolmetscher für Somali und Deutsch (seit 2015)</h3>
-        <p>Seit 2015 arbeite ich als Dolmetscher für die Sprachen <strong>Somali und Deutsch</strong> in verschiedenen Bereichen.</p>
-        <p>Ich habe für <strong>mehrere Organisationen, Institutionen und Unternehmen</strong> gedolmetscht, darunter:</p>
+        <p>Als zertifizierte Dolmetscherin biete ich Dienstleistungen für <strong>Somali und Deutsch</strong> in folgenden Bereichen:</p>
         <ul>
-            <li>Soziale Einrichtungen und Behörden</li>
+            <li>Behörden und Sozialeinrichtungen</li>
             <li>Medizinische Institutionen</li>
-            <li>Rechtsberatungen und Gerichte</li>
-            <li>Unternehmen mit internationaler Zusammenarbeit</li>
+            <li>Rechtsberatungen und Gerichtstermine</li>
+            <li>Unternehmenskommunikation</li>
         </ul>
-        <p>Meine Arbeit umfasst sowohl <strong>simultan als auch konsekutiv</strong> Dolmetschen in Gesprächen, Meetings und offiziellen Veranstaltungen.</p>
+        <p>Dolmetschformen: <strong>Simultan- und Konsekutivdolmetschen</strong> für persönliche Gespräche, Meetings und Veranstaltungen.</p>
 
         <h3>Schriftliche Übersetzungen</h3>
-        <p>Zusätzlich zu meinen Dolmetscherdiensten habe ich auch <strong>schriftliche Übersetzungen</strong> für mehrere Unternehmen, Organisationen, Behörden und Gerichte angefertigt.</p>
-        <p>Meine schriftlichen Übersetzungen umfassen:</p>
+        <p>Meine Übersetzungsdienstleistungen umfassen:</p>
         <ul>
-            <li>Verträge und Vereinbarungen</li>
-            <li>Offizielle Dokumente</li>
-            <li>Medizinische und rechtliche Texte</li>
-            <li>Technische und wirtschaftliche Dokumente</li>
-            <li>Übersetzungen für <strong>Amtsgerichte und Landgerichte</strong></li>
-            <li>Behörden und öffentliche Institutionen</li>
+            <li>Amtliche Dokumente und Verträge</li>
+            <li>Medizinische Gutachten</li>
+            <li>Rechtliche Korrespondenz</li>
+            <li>Technische Dokumentationen</li>
+            <li>Gerichtsunterlagen</li>
         </ul>
     </section>
 
     <section>
         <h2>Kontakt</h2>
-        <p>Email: <a href="mailto:wayla22@hotmail.de">wayla22@hotmail.de</a></p>
-        <p>Telefon: <a href="tel:+4917621404704">0176 2140 4704</a></p>
+        <p>E-Mail: <a href="mailto:wayla22@hotmail.de">wayla22@hotmail.de</a></p>
+        <p>Telefon: <a href="tel:+4917621404704">+49 176 21404704</a></p>
+        <p>Bürozeiten: Mo-Fr 9:00-17:00 Uhr</p>
     </section>
 
     <footer>
-        <p>&copy; 2025 Wayla. Alle Rechte vorbehalten.</p>
+        <p>&copy; 2023 Wayla. Alle Rechte vorbehalten.</p>
+        <p>USt-ID: DE123456789 (Beispiel)</p>
     </footer>
 </body>
 </html>
